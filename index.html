@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="mastercard.svg" type="image/x-icon">
+    <title>Bankártya</title>
+</head>
+
+<body>
+    <div class="egesz">
+
+        <div id="kep">
+            <img src="./kepek/pngwing.com.png" class="kep1" alt="Bankártyák">
+        </div>
+
+        <div class="adat">
+            <input type="text" id="kartyaSzam" name="kartyaSzam" placeholder="Kártyaszám">
+        </div>
+
+        <div class="adat">
+            <input type="text" id="kartyaNev" name="kartyaNev" placeholder="Kártyabirtokos neve">
+        </div>
+
+        <div id="kettozes">
+            <div class="adat">
+                <input type="text" id="cvc" name="cvc" placeholder="CVC/CCV Kód">
+            </div>
+            <div class="adat">
+                <input type="datetime" id="lejarat" name="lejarat" placeholder="HH/ÉÉ">
+            </div>
+        </div>
+        
+        <div>
+            <input type="checkbox" id="kartyaMentese" name="kartyaMentese">
+            <label for="kartyaMentese">Kártya mentése a könnyebb fizetéshez</label>
+        </div>
+
+        <button type="button" class="btn">Vásárlás</button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
